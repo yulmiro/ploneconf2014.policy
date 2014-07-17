@@ -1,0 +1,28 @@
+id: topic
+title: Asunto
+description: 
+required: True
+hidden: False
+fgTDefault: 
+fgTValidator: python:False
+fgTEnabled: 
+serverSide: False
+fgDefault: 
+fgmaxlength: 255
+fgsize: 30
+fgStringValidator: 
+subject: 
+relatedItems: 
+location: 
+language: es
+effectiveDate: None
+expirationDate: None
+creation_date: 2014/07/16 10:45:9.615138 GMT-0430
+modification_date: 2014/07/16 10:45:9.794237 GMT-0430
+creators: admin
+contributors: 
+rights: 
+allowDiscussion: False
+excludeFromNav: False
+Content-Type: text/plain
+

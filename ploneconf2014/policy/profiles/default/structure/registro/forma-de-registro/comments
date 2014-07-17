@@ -1,0 +1,28 @@
+id: comments
+title: Comentarios
+description: 
+required: True
+hidden: False
+fgTDefault: 
+fgTValidator: python:False
+fgTEnabled: 
+serverSide: False
+fgDefault: 
+fgRows: 5
+fgmaxlength: 0
+subject: 
+relatedItems: 
+location: 
+language: es
+effectiveDate: None
+expirationDate: None
+creation_date: 2014/07/16 10:45:9.645367 GMT-0430
+modification_date: 2014/07/16 10:45:9.808701 GMT-0430
+creators: admin
+contributors: 
+rights: 
+allowDiscussion: False
+excludeFromNav: False
+validateNoLinkSpam: False
+Content-Type: text/plain
+

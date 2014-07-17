@@ -1,0 +1,25 @@
+id: archivo-csv
+title: Archivo csv
+description: 
+subject: 
+relatedItems: 
+location: 
+language: es
+effectiveDate: None
+expirationDate: None
+creation_date: 2014/07/16 10:57:54.182332 GMT-0430
+modification_date: 2014/07/16 10:58:22.630016 GMT-0430
+creators: admin
+contributors: 
+rights: 
+allowDiscussion: False
+excludeFromNav: False
+showFields: 
+ExtraData: dt
+DownloadFormat: csv
+UseColumnNames: True
+execCondition: 
+Content-Type: text/plain
+
+leonardocaballero@gmail.com,Masculino,Prueba,dgdfxd,2014/07/16 10:58:44.463876 GMT-0430
+leonardoc@plone.org,Masculino,Test,qweasdzxc,2014/07/16 11:00:3.741160 GMT-0430

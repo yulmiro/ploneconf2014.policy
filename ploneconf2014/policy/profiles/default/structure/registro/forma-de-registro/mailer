@@ -1,0 +1,61 @@
+id: mailer
+title: Envío de correo
+description: Formulario de entrada correos electrónicos
+subject: 
+relatedItems: 
+location: 
+language: es
+effectiveDate: None
+expirationDate: None
+creation_date: 2014/07/16 10:45:9.392214 GMT-0430
+modification_date: 2014/07/16 10:45:9.765151 GMT-0430
+creators: admin
+contributors: 
+rights: 
+allowDiscussion: False
+excludeFromNav: False
+recipient_name: 
+recipient_email: 
+to_field: #NONE#
+cc_recipients: 
+bcc_recipients: 
+replyto_field: replyto
+msg_subject: Envío de formulario
+subject_field: topic
+body_pre: 
+body_post: 
+body_footer: 
+showAll: True
+showFields: 
+includeEmpties: True
+body_pt: <html xmlns="http://www.w3.org/1999/xhtml">
+  
+    <head><title></title></head>
+  
+    <body>
+      <p tal:content="here/getBody_pre | nothing" />
+      <dl>
+          <tal:block repeat="field options/wrappedFields | nothing">
+              <dt tal:content="field/fgField/widget/label" />
+              <dd tal:content="structure python:field.htmlValue(request)" />
+          </tal:block>
+      </dl>
+      <p tal:content="here/getBody_post | nothing" />
+      <pre tal:content="here/getBody_footer | nothing" />
+    </body>
+  </html>
+  
+body_type: html
+xinfo_headers: HTTP_X_FORWARDED_FOR
+  REMOTE_ADDR
+  PATH_INFO
+additional_headers: 
+gpg_keyid: 
+subjectOverride: 
+senderOverride: 
+recipientOverride: 
+ccOverride: 
+bccOverride: 
+execCondition: 
+Content-Type: text/plain
+

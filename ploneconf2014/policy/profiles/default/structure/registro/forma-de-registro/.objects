@@ -1,0 +1,9 @@
+mailer,FormMailerAdapter
+datos-basicos,FieldsetStart
+fieldsetend.2014-07-16.9230232559,FieldsetEnd
+replyto,FormStringField
+sexo,FormSelectionField
+topic,FormStringField
+comments,FormTextField
+thank-you,FormThanksPage
+archivo-csv,FormSaveDataAdapter

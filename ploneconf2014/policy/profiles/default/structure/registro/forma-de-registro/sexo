@@ -1,0 +1,27 @@
+id: sexo
+title: Sexo
+description: Seleccione el sexo
+required: False
+fgTDefault: 
+fgTValidator: python:False
+fgTEnabled: 
+fgDefault: 
+fgVocabulary: Masculino
+  Femenino
+fgTVocabulary: 
+fgFormat: select
+subject: 
+relatedItems: 
+location: 
+language: es
+effectiveDate: None
+expirationDate: None
+creation_date: 2014/07/16 10:47:40.587101 GMT-0430
+modification_date: 2014/07/16 10:47:40.612558 GMT-0430
+creators: admin
+contributors: 
+rights: 
+allowDiscussion: False
+excludeFromNav: False
+Content-Type: text/plain
+

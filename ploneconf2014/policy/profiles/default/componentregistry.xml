@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<componentregistry>
+ <adapters>
+  <adapter
+     factory="five.customerize.zpt.zope.interface.interface-collection.pt"
+     for="zope.interface.Interface
+           zope.publisher.interfaces.browser.IDefaultBrowserLayer
+           zope.browser.interfaces.IBrowserView
+           plone.portlets.interfaces.IPortletManager
+           plone.portlet.collection.collection.ICollectionPortlet"
+     provides="plone.portlets.interfaces.IPortletRenderer"/>
+  <adapter name="plone.footer"
+     factory="five.customerize.zpt.zope.interface.interface-plone.footer"
+     for="zope.interface.Interface
+           zope.publisher.interfaces.browser.IDefaultBrowserLayer
+           zope.browser.interfaces.IBrowserView
+           plone.app.layout.viewlets.interfaces.IPortalFooter"
+     provides="zope.viewlet.interfaces.IViewlet"/>
+  <adapter name="plone.site_actions"
+     factory="five.customerize.zpt.zope.interface.interface-plone.site_actions"
+     for="zope.interface.Interface
+           plonetheme.classic.browser.interfaces.IThemeSpecific
+           zope.browser.interfaces.IBrowserView
+           plone.app.layout.viewlets.interfaces.IPortalHeader"
+     provides="zope.viewlet.interfaces.IViewlet"/>
+ </adapters>
+ <subscribers/>
+
+ <utilities>
+  <utility factory="plone.app.viewletmanager.storage.ViewletSettingsStorage"
+     interface="plone.app.viewletmanager.interfaces.IViewletSettingsStorage"/>
+<!--
+  <utility interface="Products.CMFActionIcons.interfaces.IActionIconsTool"
+     object="portal_actionicons"/>
+  <utility interface="Products.CMFCore.interfaces.IPropertiesTool"
+     object="portal_properties"/>
+  <utility interface="Products.MailHost.interfaces.IMailHost"
+     object="MailHost"/>
+  <utility factory="collective.geo.mapwidget.maplayers.DefaultMapLayers"
+     interface="collective.geo.mapwidget.interfaces.IDefaultMapLayers"/>
+  <utility interface="five.customerize.interfaces.IViewTemplateContainer"
+     object="portal_view_customizations"/>
+  <utility interface="plone.app.i18n.locales.interfaces.ICountries"
+     object="plone_app_countries"/>
+  <utility name="collective.geo.contentlocations"
+     factory="zope.interface.interface.InterfaceClass"
+     id="IContentlocationsLayer"
+     interface="plone.browserlayer.interfaces.ILocalBrowserLayerType"/>
+  <utility name="collective.geo.kml"
+     factory="zope.interface.interface.InterfaceClass" id="IGeoKmlLayer"
+     interface="plone.browserlayer.interfaces.ILocalBrowserLayerType"/>
+  <utility name="collective.geo.mapwidget"
+     factory="zope.interface.interface.InterfaceClass" id="IGeoMapWidgetLayer"
+     interface="plone.browserlayer.interfaces.ILocalBrowserLayerType"/>
+  <utility name="collective.geo.openlayers"
+     factory="zope.interface.interface.InterfaceClass" id="IOpenlayers"
+     interface="plone.browserlayer.interfaces.ILocalBrowserLayerType"/>
+-->
+ </utilities>
+</componentregistry>

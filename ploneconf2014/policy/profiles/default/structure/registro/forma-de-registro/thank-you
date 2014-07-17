@@ -1,0 +1,24 @@
+id: thank-you
+title: Gracias
+description: Gracias por su colaboración.
+showAll: True
+showFields: 
+includeEmpties: True
+thanksPrologue: 
+thanksEpilogue: 
+noSubmitMessage: <p>No input was received. Please visit the form.</p>
+subject: 
+relatedItems: 
+location: 
+language: es
+effectiveDate: None
+expirationDate: None
+creation_date: 2014/07/16 10:45:9.692017 GMT-0430
+modification_date: 2014/07/16 10:45:9.823173 GMT-0430
+creators: admin
+contributors: 
+rights: 
+allowDiscussion: False
+excludeFromNav: False
+Content-Type: text/plain
+
